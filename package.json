@@ -1,0 +1,21 @@
+{
+  "name": "@ryexley/mdx-deck-extensions",
+  "version": "0.0.0-development",
+  "description": "Themes, layouts and components for use in mdx-deck presentations",
+  "main": "src/index.js",
+  "author": "Bob Yexley",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "emotion": "^9.2.6",
+    "mdx-deck": "^1.5.15",
+    "react": "^16.4.2"
+  },
+  "scripts": {
+    "release": "npx semantic-release --no-ci"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryexley/mdx-deck-extensions.git"
+  }
+}
