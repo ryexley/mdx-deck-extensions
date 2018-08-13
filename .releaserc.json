@@ -1,0 +1,6 @@
+{
+  "noCi": true,
+  "analyzeCommits": {
+    "preset": "eslint"
+  }
+}

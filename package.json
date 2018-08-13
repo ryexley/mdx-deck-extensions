@@ -11,11 +11,18 @@
     "mdx-deck": "^1.5.15",
     "react": "^16.4.2"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
-    "release": "npx semantic-release --no-ci"
+    "release": "semantic-release"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/ryexley/mdx-deck-extensions.git"
+  },
+  "devDependencies": {
+    "conventional-changelog-eslint": "^3.0.0",
+    "semantic-release": "^15.9.8"
   }
 }
